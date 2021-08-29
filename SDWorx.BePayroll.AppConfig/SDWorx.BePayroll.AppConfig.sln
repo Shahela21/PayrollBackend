@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SDWorx.BePayroll.AppConfig.Api", "SDWorx.BePayroll.AppConfig.Api\SDWorx.BePayroll.AppConfig.Api.csproj", "{D9E9289F-B07C-404D-8FE2-71A56A869A2E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SDWorx.BePayroll.AppConfig.Domain", "SDWorx.BePayroll.AppConfig.Domain\SDWorx.BePayroll.AppConfig.Domain.csproj", "{CC76978C-6E37-4FC9-8FBB-4D74AB87B194}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SDWorx.BePayroll.AppConfig.Infrastructure", "SDWorx.BePayroll.AppConfig.Infrastructure\SDWorx.BePayroll.AppConfig.Infrastructure.csproj", "{1EB35387-E9F4-43A5-8643-E9E9746A19F3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SDWorx.BePayroll.AppConfig.Services", "SDWorx.BePayroll.AppConfig.Services\SDWorx.BePayroll.AppConfig.Services.csproj", "{8BEDCC7F-563F-4453-AB4E-01866B5236B3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SDWorx.BePayroll.AppConfig.UnitTests", "SDWorx.BePayroll.AppConfig.UnitTests\SDWorx.BePayroll.AppConfig.UnitTests.csproj", "{2CB69851-3DD8-4D02-887D-E44B81142030}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D7F73A6B-CAE2-4233-9EB8-491E7A8AAC9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{7D87D402-B793-433D-A695-75971CBC3C76}"
+	ProjectSection(SolutionItems) = preProject
+		..\SDWorx.BePayroll.Shared\SDWorx.BePayroll.Core.Api\SDWorx.BePayroll.Core.Api.csproj = ..\SDWorx.BePayroll.Shared\SDWorx.BePayroll.Core.Api\SDWorx.BePayroll.Core.Api.csproj
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SDWorx.BePayroll.Core.Security", "..\SDWorx.BePayroll.Shared\SDWorx.BePayroll.Core.Security\SDWorx.BePayroll.Core.Security.csproj", "{1F89A8FE-1E8F-44B9-9F53-C0756DFA9C91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CC7A78CD-0012-4057-9FCD-94558D67855F}"
+	ProjectSection(SolutionItems) = preProject
+		..\.editorconfig = ..\.editorconfig
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SDWorx.BePayroll.AppConfig.IntegrationTests", "SDWorx.BePayroll.AppConfig.IntegrationTests\SDWorx.BePayroll.AppConfig.IntegrationTests.csproj", "{51A363AD-F46E-44CE-8CF5-4037835A294B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9E9289F-B07C-404D-8FE2-71A56A869A2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9E9289F-B07C-404D-8FE2-71A56A869A2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9E9289F-B07C-404D-8FE2-71A56A869A2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9E9289F-B07C-404D-8FE2-71A56A869A2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC76978C-6E37-4FC9-8FBB-4D74AB87B194}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC76978C-6E37-4FC9-8FBB-4D74AB87B194}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC76978C-6E37-4FC9-8FBB-4D74AB87B194}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC76978C-6E37-4FC9-8FBB-4D74AB87B194}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EB35387-E9F4-43A5-8643-E9E9746A19F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EB35387-E9F4-43A5-8643-E9E9746A19F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EB35387-E9F4-43A5-8643-E9E9746A19F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EB35387-E9F4-43A5-8643-E9E9746A19F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BEDCC7F-563F-4453-AB4E-01866B5236B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BEDCC7F-563F-4453-AB4E-01866B5236B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BEDCC7F-563F-4453-AB4E-01866B5236B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BEDCC7F-563F-4453-AB4E-01866B5236B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CB69851-3DD8-4D02-887D-E44B81142030}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CB69851-3DD8-4D02-887D-E44B81142030}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CB69851-3DD8-4D02-887D-E44B81142030}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CB69851-3DD8-4D02-887D-E44B81142030}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F89A8FE-1E8F-44B9-9F53-C0756DFA9C91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F89A8FE-1E8F-44B9-9F53-C0756DFA9C91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F89A8FE-1E8F-44B9-9F53-C0756DFA9C91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F89A8FE-1E8F-44B9-9F53-C0756DFA9C91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51A363AD-F46E-44CE-8CF5-4037835A294B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51A363AD-F46E-44CE-8CF5-4037835A294B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51A363AD-F46E-44CE-8CF5-4037835A294B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51A363AD-F46E-44CE-8CF5-4037835A294B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2CB69851-3DD8-4D02-887D-E44B81142030} = {D7F73A6B-CAE2-4233-9EB8-491E7A8AAC9A}
+		{1F89A8FE-1E8F-44B9-9F53-C0756DFA9C91} = {7D87D402-B793-433D-A695-75971CBC3C76}
+		{51A363AD-F46E-44CE-8CF5-4037835A294B} = {D7F73A6B-CAE2-4233-9EB8-491E7A8AAC9A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C07BB617-D4AF-47B0-9332-19A131B9373D}
+	EndGlobalSection
+EndGlobal
